@@ -16,7 +16,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "@root": ["src"],
+      "@root/*": ["src/*"]
+    },
     "esModuleInterop": true
   },
   "files": [],
