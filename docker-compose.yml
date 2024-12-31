@@ -68,6 +68,7 @@ services:
       timeout: 5s
       retries: 3
 
+
 volumes:
   db_data:
   redis_data:
